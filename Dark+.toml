@@ -1,44 +1,58 @@
 [color-theme]
 name = "Dark+"
-color-preference = "dark"
 
 [color-theme.base]
-white = ""
-black = ""
-grey = ""
-blue = ""
-red = ""
-yellow = ""
-orange = ""
-green = ""
-purple = ""
-cyan = ""
-magenta = ""
+black = "#212121"
+blue = "#80c0ff"
+cyan = "#57d9ce"
+green = "#a6d982"
+grey = "#3E3E3E"
+magenta = "#C678DD"
+orange = "#f29f76"
+purple = "#bda1e6"
+red = "#f27997"
+white = "#CCCCCC"
+yellow = "#e6d373"
 
 [color-theme.syntax]
 attribute = "#9CDCFE"
+"builtinAttribute" = "$yellow" # TODO
 builtinType = "#4EC9B0"
+"boolean" = "$orange" # TODO
 comment = "#6A9955"
 constant = "#569CD6"
 constructor = ""
+"derive" = "#4ec9b0" # TODO done
+"deriveHelper" = "$yellow" # TODO
+"decorator" = "$yellow" # TODO
 embedded = ""
 enum = "#4ec9b0"
 enum-member = ""
 enumMember = "#4fc1ff"
 escape = ""
 field = ""
+"formatSpecifier" = "$purple" # TODO
 function = "#dcdcaa"
 "function.method" = ""
+"generic.attribute" = "$yellow" # TODO
 interface = "#4ec9b0"
 keyword = "#569cd6"
+"keyword.control" = "$orange" # TODO
 label = "#999999"
+"lifetime" = "$cyan" # TODO
+"macro" = "$yellow" # TODO
 method = "#dcdcaa"
 number = "#b5cea8"
+"namespace" = "$black" # TODO
+"parameter" = "#9cdcfe" # TODO done
 property = "#9cdcfe"
 "punctuation.delimiter" = ""
 selfKeyword = "#569cd6"
+"selfTypeKeyword" = "#569cd6" # TODO done
 string = "#ce9178"
 "string.escape" = "#d7ba7d"
+"string.macro" = "$green" # TODO
+"string.template" = "$green" # TODO
 struct = "#4ec9b0"
 structure = ""
 symbol = ""
@@ -49,6 +63,7 @@ tag = ""
 type = ""
 "type.builtin" = ""
 typeAlias = "#4ec9b0"
+"typeParameter" = "$cyan" # TODO
 variable = "#9cdcfe"
 "variable.other.member" = "#9cdcfe"
 
@@ -114,15 +129,3 @@ variable = "#9cdcfe"
 "terminal.red" = "#cd3131"
 "terminal.white" = "#e5e5e5"
 "terminal.yellow" = "#e5e510"
-
-[ui]
-font-family = ""
-font-size = 13
-header-height = 35
-status-height = 25
-tab-min-width = 100
-scroll-width = 10
-drop-shadow-width = 0
-preview-editor-width = 0
-hover-font-family = ""
-hover-font-size = 0
